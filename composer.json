@@ -20,9 +20,9 @@
     },
     "extra": {
         "laravel": {
-            "providers": [
-                "Bjserranoweb\\OllamaLaravelWizard\\LaravelOllamaServiceProvider"
-            ]
+            "providers": {
+                "Bjserranoweb\\OllamaLaravelWizard\\": "src/"
+            }
         }
     },
     "minimum-stability": "dev",
